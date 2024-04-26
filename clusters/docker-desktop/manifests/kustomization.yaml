@@ -1,6 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
+# these will be executed in the order provided, including during retries for failures
+# execution short circuits at the first failure.
 - demo-ns.yaml
 - gitops-system-ns.yaml
 - gitops-connector-notifications.yaml
