@@ -12,9 +12,9 @@ spec:
         kind: HelmRepository
         name: ttlsh-helmrepository
         namespace: flux-system
-      test:
-        enable: true
-        ignoreFailures: false
+  test:
+    enable: true
+    ignoreFailures: false
   interval: 10m
   targetNamespace: demo
   timeout: 1m
