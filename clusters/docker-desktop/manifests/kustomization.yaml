@@ -4,3 +4,4 @@ resources:
 - demo-ns.yaml
 - gitops-system-ns.yaml
 - gitops-connector-notifications.yaml
+- test-ns.yaml
