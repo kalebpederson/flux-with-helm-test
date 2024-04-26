@@ -6,4 +6,4 @@ metadata:
 spec:
   type: "oci"
   interval: 5m
-  url: oci://ttl.sh/kaleb/9812734986466733/charts
+  url: oci://ttl.sh/kaleb/9812734986466733/charts/helm-test

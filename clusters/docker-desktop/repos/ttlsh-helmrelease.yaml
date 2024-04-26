@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: helm-test
+      chart: testdemo
       version: "<1.0.0"
       sourceRef:
         kind: HelmRepository
