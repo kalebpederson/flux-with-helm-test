@@ -21,4 +21,4 @@ metadata:
   namespace: flux-system
 spec:
   type: generic
-  address: http://gitops-connector:8080/gitopsphase
+  address: http://gitops-connector.gitops-system.svc.cluster.local:8080/gitopsphase
