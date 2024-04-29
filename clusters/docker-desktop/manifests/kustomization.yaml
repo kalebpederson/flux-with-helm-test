@@ -7,3 +7,4 @@ resources:
 - gitops-system-ns.yaml
 - gitops-connector-notifications.yaml
 - test-ns.yaml
+- test2-ns.yaml
