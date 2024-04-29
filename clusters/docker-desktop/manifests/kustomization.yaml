@@ -8,3 +8,4 @@ resources:
 - gitops-connector-notifications.yaml
 - test-ns.yaml
 - test2-ns.yaml
+- test3-ns.yaml
