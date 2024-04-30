@@ -11,3 +11,4 @@ resources:
 - test3-ns.yaml
 - test4-ns.yaml
 - podinfo-repo.yaml
+- podinfo-release.yaml
