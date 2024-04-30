@@ -7,5 +7,5 @@ spec:
   interval: 5m0s
   url: oci://ghcr.io/stefanprodan/manifests/podinfo
   ref:
-    semver: >=6.4.0
+    semver: '>=6.4.0'
 
