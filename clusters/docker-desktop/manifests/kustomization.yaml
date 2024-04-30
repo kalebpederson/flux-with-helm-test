@@ -12,3 +12,4 @@ resources:
 - test4-ns.yaml
 - podinfo-repo.yaml
 - podinfo-release.yaml
+- generic-notifications.yaml
