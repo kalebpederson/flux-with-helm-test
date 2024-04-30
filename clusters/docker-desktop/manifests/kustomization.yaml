@@ -10,3 +10,4 @@ resources:
 - test2-ns.yaml
 - test3-ns.yaml
 - test4-ns.yaml
+- podinfo-repo.yaml
