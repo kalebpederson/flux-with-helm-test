@@ -1,0 +1,51 @@
+﻿# setup alerts
+apiVersion: notification.toolkit.fluxcd.io/v1beta1
+kind: Alert
+metadata:
+  name: generic-notifications
+  namespace: alert-system
+spec:
+  eventSeverity: info
+  eventSources:
+  - kind: GitRepository
+    name: '*'
+    namespace: flux-system
+  - kind: Kustomization
+    name: '*'
+    namespace: flux-system
+  - kind: HelmChart
+    name: '*'
+    namespace: flux-system
+  - kind: HelmRelease
+    name: '*'
+    namespace: flux-system
+  - kind: HelmRepository
+    name: '*'
+    namespace: flux-system
+  - kind: OCIRepository
+    name: '*'
+    namespace: flux-system
+  - kind: Bucket
+    name: '*'
+    namespace: flux-system
+  - kind: ImageRepository
+    name: '*'
+    namespace: flux-system
+  - kind: ImagePolicy
+    name: '*'
+    namespace: flux-system
+  - kind: ImageUpdateAutomation
+    name: '*'
+    namespace: flux-system
+  providerRef:
+    name: custom-gitops-connector
+---
+apiVersion: notification.toolkit.fluxcd.io/v1beta1
+kind: Provider
+metadata:
+  name: custom-gitops-connector
+  namespace: flux-system
+spec:
+  type: generic
+  address: https://smee.io/qdyUtOxMq4xp8ciW
+
