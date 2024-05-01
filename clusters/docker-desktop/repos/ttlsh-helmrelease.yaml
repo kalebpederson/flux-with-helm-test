@@ -7,13 +7,13 @@ spec:
   chart:
     spec:
       chart: testdemo
-      version: "0.1.1"
+      version: "0.1.2"
       sourceRef:
         kind: HelmRepository
         name: ttlsh-helmrepository
         namespace: flux-system
   test:
-    enable: false
+    enable: true
     ignoreFailures: false
   interval: 10m
   targetNamespace: demo
