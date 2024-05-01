@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: testdemo
+  namespace: flux-system
+spec:
+  type: "oci"
+  interval: 5m0s
+  url: oci://ttl.sh/kaleb/9812734986466733/charts/helm-test
+
